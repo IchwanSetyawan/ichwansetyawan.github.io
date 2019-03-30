@@ -4,6 +4,10 @@ body{
 }
 
 /* BEGIN NAVBAR */
+.banner .initial{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.7);
+}
+
 .navbar-default{
     background-color: transparent;
     border: none;
@@ -22,18 +26,38 @@ body{
 .navbar-default .navbar-nav>li>a:focus {
     color:rgb(2, 253, 107);
 }
+.navbar-scroll{
+    background-color: #fff;
+}
+
+.navbar-default .nav-color>li>a{
+    color: #aaa;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-brand img{
+    width: 35px;
+    height: 35px;
+    padding-top: -10px;
+}
+/* END NAVBAR */
+
+/* BEGIN BANNER */
+
 .banner .container .row {
     color: #fff;
     margin-top: 250px;
 }
 .banner .container .row h1{
-    color:rgb(2, 253, 107);
+    color:rgb(11, 196, 88);
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.7);
 }
 .banner{
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
 }
 .btn-default {
     color: #fff;
@@ -47,6 +71,7 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .about h1 span::after{
     content: '';
     border-bottom: 3px solid black;
@@ -70,7 +95,7 @@ body{
 }
 
 .services{
-    background-color: forestgreen;
+    background-color: #07b978;    
     margin-top: 50px;
     margin-bottom: 50px;
     color: #eaeaea;
@@ -148,3 +173,80 @@ body{
 }
 
 /* END BLOG */
+
+
+/* BEGIN PROJECT */
+
+/* begin img */
+.project .thumbnail{
+    border: none;
+}
+.project-img img{
+    height: 164.77px;
+}
+/* end img */
+
+.desc-project{
+    background-color: rgb(42, 112, 218);
+    color: #eaeaea;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.project h1 span::after{
+    content: '';
+    border-bottom: 3px solid black;
+    display: block;
+    width: 6%;
+    margin: auto;
+}
+.project h1{
+    margin: 50px 0;
+}
+
+.desc-project .button .btn-work{
+    background-color: #fff;
+    color:  rgb(42, 112, 218);
+}
+.desc-project .button .btn-hire{
+    background-color: rgb(8, 7, 7);
+    color: #fff;
+    border: none;
+}
+/* END PROJECT */
+
+/* BEGIN CONTACT */
+
+.core-contactForm{
+    margin-left: 10px;
+}
+
+.contact iframe{
+    margin-bottom: 2em;
+}
+/* END CONTACT */
+
+/* BEGIN FOOTER */
+.footer{
+    background-color: rgb(14, 12, 12);
+    height: 200px;
+    padding-top: 3em;
+}
+
+.footer .icon-footer{
+    padding: 10px;
+    background-color: rgb(70, 64, 64);
+    color: #eaeaea;
+    margin-left: 1rem;
+    margin-bottom:2rem; 
+    border-radius: 3px;
+    
+}
+
+.footer .btn-chevron{
+    font-size: 25px;
+    color: #eaeaea;
+    margin-top: 2rem;
+    
+}
+
+/* END FOOTER */
