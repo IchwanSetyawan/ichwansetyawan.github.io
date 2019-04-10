@@ -128,7 +128,7 @@ body{
     padding: 0;
 }
 .experience .thumbnail h3 span{
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: 1.3rem;
     background-color: #1dc688;
     padding: 4px;
@@ -188,7 +188,16 @@ body{
 }
 .project-img img{
     height: 164.77px;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    
 }
+
+  .project-img:hover img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    box-shadow: 0 5px 10px rgba(0, 0,0,.5);
+  }
 /* end img */
 
 .desc-project{
@@ -228,6 +237,13 @@ body{
 .contact iframe{
     margin-bottom: 2em;
 }
+
+.contact .form-group .btn-primary{
+    margin: right;
+    padding:10px 25px;
+}
+
+
 /* END CONTACT */
 
 /* BEGIN FOOTER */
